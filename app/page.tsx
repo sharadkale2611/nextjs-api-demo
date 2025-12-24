@@ -22,6 +22,7 @@ export default async function HomePage() {
   return (
     <main style={{ padding: '20px' }}>
       <h1>📌 Posts from Free API</h1>
+      <p>This is test CICD Practice Session!</p>
 
       {posts.slice(0, 10).map((post) => (
         <div key={post.id} style={{ marginBottom: '20px' }}>
