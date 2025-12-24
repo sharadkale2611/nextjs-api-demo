@@ -24,6 +24,7 @@ export default async function HomePage() {
       <h1>📌 Posts from Free API</h1>
       <p>This is test CICD Practice Session!</p>
       <p>111 .Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatum mollitia eum beatae quae magni accusamus quod aspernatur rem maiores, facere iure quidem enim nulla tenetur voluptatem est nihil. Ipsa.</p>
+
       {posts.slice(0, 10).map((post) => (
         <div key={post.id} style={{ marginBottom: '20px' }}>
           <h3>{post.title}</h3>
